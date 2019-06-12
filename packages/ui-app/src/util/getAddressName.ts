@@ -4,9 +4,8 @@
 
 import keyring from '@polkadot/ui-keyring';
 import { KeyringItemType } from '@polkadot/ui-keyring/types';
-import toShortAddress from './toShortAddress';
 
-export default function getAddressName (address: string, type: KeyringItemType | null = null, withShort?: boolean, defaultName?: string | null): string | undefined {
+export default function getAddressName (address: string, type: KeyringItemType | null = null, defaultName?: string | null): string | null {
   let pair;
 
   try {
@@ -15,11 +14,7 @@ export default function getAddressName (address: string, type: KeyringItemType |
     // all-ok, we have empty fallbacks
   }
 
-  const name = pair && pair.isValid()
+  return (pair && pair.isValid()
     ? pair.getMeta().name
-    : (defaultName || null);
-
-  return !name && withShort
-    ? toShortAddress(address)
-    : (name || '<unknown>');
+    : defaultName) || null;
 }

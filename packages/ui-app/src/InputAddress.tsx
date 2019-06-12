@@ -191,7 +191,7 @@ class InputAddress extends React.PureComponent<Props, State> {
       return undefined;
     }
 
-    return getAddressName(value, null, true);
+    return getAddressName(value, null) || value;
   }
 
   private getLastOptionValue (): KeyringSectionOption | undefined {

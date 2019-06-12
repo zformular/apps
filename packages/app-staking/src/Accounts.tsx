@@ -81,7 +81,7 @@ class Accounts extends React.PureComponent<Props, State> {
     const { stashes } = this.props;
 
     return stashes.map((stashId) =>
-      createOption(stashId, getAddressName(stashId, 'account'))
+      createOption(stashId, getAddressName(stashId, 'account') || stashId.toString())
     );
   }
 
