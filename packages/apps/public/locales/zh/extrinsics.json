@@ -1,10 +1,10 @@
 {
-    "with an account balance": "with an account balance",
-    "with a transaction nonce": "with a transaction nonce",
-    "using the selected account": "using the selected account",
-    "submit the following extrinsic": "submit the following extrinsic",
+    "with an account balance": "账户余额",
+    "with a transaction nonce": "交易序列",
+    "using the selected account": "使用的账户",
+    "submit the following extrinsic": "提交以下外部交易",
 
-    "Submit Inherent": "Submit Inherent",
-    "Submit Transaction": "Submit Transaction",
-    "Extrinsic submission": "Extrinsic submission"
+    "Submit Inherent": "内部提交",
+    "Submit Transaction": "发送交易",
+    "Extrinsic submission": "发送外部交易"
 }

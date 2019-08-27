@@ -1,7 +1,7 @@
 {
-    "using my account": "using my account",
-    "1 Select your {{chain}} account": "1. Select your {{chain}} account",
-    "Select the account to use for this action": "Select the account to use for this action.",
+    "using my account": "使用的账户",
+    "1 Select your {{chain}} account": "1. 选择你在 {{chain}} 的账户",
+    "Select the account to use for this action": "选择用于执行该操作的账户.",
 
-    "Continue": "Continue"
+    "Continue": "继续"
 }

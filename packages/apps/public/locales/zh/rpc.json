@@ -1,5 +1,5 @@
 {
-    "Submit RPC call": "Submit RPC call",
-    "call the selected endpoint": "call the selected endpoint",
-    "The actual JSONRPC module and function to make a call to": "The actual JSONRPC module and function to make a call to."
+    "Submit RPC call": "发起RPC请求",
+    "call the selected endpoint": "请求指定的节点",
+    "The actual JSONRPC module and function to make a call to": "通过JSONRPC模块发起请求."
 }

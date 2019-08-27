@@ -1,14 +1,14 @@
 {
-    "name": "name",
-    "address": "address",
+    "name": "名称",
+    "address": "地址",
 
-    "Save": "Save",
-    "Cancel": "Cancel",
-    "My contacts": "My contacts",
-    "Add contact": "Add contact",
-    "Add an address": "Add an address",
-    "No contact found": "No contact found.",
+    "Save": "保存",
+    "Cancel": "取消",
+    "My contacts": "我的联系人",
+    "Add contact": "新增",
+    "Add an address": "添加地址",
+    "No contact found": "没有联系人信息.",
 
-    "Paste here the address of the contact you want to add to your address book": "Paste here the address of the contact you want to add to your address book.",
-    "Type the name of your contact This name will be used across all the apps It can be edited later on": "Type the name of your contact. This name will be used across all the apps. It can be edited later on."
+    "Paste here the address of the contact you want to add to your address book": "在这里粘贴你想给联系人添加的地址.",
+    "Type the name of your contact This name will be used across all the apps It can be edited later on": "输入联系人的名称, 你可以在所有功能中使用这个名称来查找该联系人, 名称可以随时修改."
 }

@@ -1,7 +1,7 @@
 {
-    "Select example": "Select example",
-    "Name your example": "Name your example",
-    "Copied to clipboard": "Copied to clipboard",
-    "Save snippet to local storage": "Save snippet to local storage",
-    "Generate link to share code example": "Generate link to share code example"
+    "Select example": "选择示例",
+    "Name your example": "为你的示例命名",
+    "Copied to clipboard": "复制到剪贴板",
+    "Save snippet to local storage": "保存片段到本地",
+    "Generate link to share code example": "生成分享链接"
 }

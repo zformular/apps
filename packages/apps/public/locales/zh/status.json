@@ -9,8 +9,8 @@
     "peer best": "peer best",
     "best hash": "best hash",
     "refresh in": "refresh in",
-    "total peers": "total peers",
-    "connected peers": "connected peers",
-    "no peers connected": "no peers connected",
+    "total peers": "总节点数量",
+    "connected peers": "已连接节点",
+    "no peers connected": "没有连接上任何节点",
     "pending extrinsics": "pending extrinsics"
 }

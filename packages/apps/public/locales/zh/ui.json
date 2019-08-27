@@ -2,15 +2,15 @@
     "or": "or",
     "total": "total",
     "lifetime": "lifetime",
-    "available": "available",
-    "clipboard": "clipboard",
-    "crypto type": "crypto type",
-    "transactions": "transactions",
-    "address copied": "address copied",
-    "extrinsic hash": "extrinsic hash",
+    "available": "可用",
+    "clipboard": "剪贴板",
+    "crypto type": "加密类型",
+    "transactions": "交易",
+    "address copied": "地址已复制",
+    "extrinsic hash": "外部交易hash",
     "Positive number": "Positive number",
-    "click to select or drag and drop the file here": "click to select or drag and drop the file here",
+    "click to select or drag and drop the file here": "点击选择文件或者拖放文件至此",
 
-    "No items": "No items",
-    "View this {{type}} on Polkascanio": "View this {{type}} on Polkascan.io"
+    "No items": "无内容",
+    "View this {{type}} on Polkascanio": "在 Polkascan.io 查看 {{type}}"
 }

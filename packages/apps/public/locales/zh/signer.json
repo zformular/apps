@@ -1,16 +1,16 @@
 {
-    "wrong password": "wrong password",
+    "wrong password": "密码错误",
 
-    "Cancel": "Cancel",
-    "Tip (optional)": "Tip (optional)",
-    "Sign and Submit": "Sign and Submit",
-    "sending from my account": "sending from my account",
-    "unlock account with password": "unlock account with password",
-    "{{total}} total transaction amount (fees + value)": "{{total}} total transaction amount (fees + value)",
-    "Fees includes the transaction fee and the per-byte fee": "Fees includes the transaction fee and the per-byte fee",
-    "Fees totalling {{fees}} will be applied to the submission": "Fees totalling {{fees}} will be applied to the submission",
-    "Add a tip to this extrinsic, paying the block author for greater priority": "Add a tip to this extrinsic, paying the block author for greater priority",
-    "The selected account does not have the required balance available for this transaction": "The selected account does not have the required balance available for this transaction",
-    "A fee of {{creationFee}} will be deducted from the sender since the destination account does not exist": "A fee of {{creationFee}} will be deducted from the sender since the destination account does not exist",
-    "The final recipient balance is less or equal to {{existentialDeposit}} (the existential amount) and will not be reflected": "The final recipient balance is less or equal to {{existentialDeposit}} (the existential amount) and will not be reflected"
+    "Cancel": "取消",
+    "Tip (optional)": "小费 (可选)",
+    "Sign and Submit": "签名并发送",
+    "sending from my account": "从我的账户中发送",
+    "unlock account with password": "输入密码解锁账户",
+    "{{total}} total transaction amount (fees + value)": "{{total}} 总消耗金额 (金额+手续费)",
+    "Fees includes the transaction fee and the per-byte fee": "手续费已包含交易手续费和字节费用",
+    "Fees totalling {{fees}} will be applied to the submission": "本次交易消耗总计 {{fees}} 的手续费",
+    "Add a tip to this extrinsic, paying the block author for greater priority": "给这笔交易添加额外的小费, 以提高验证人处理交易时的优先级",
+    "The selected account does not have the required balance available for this transaction": "当前选中的转出账户余额不足",
+    "A fee of {{creationFee}} will be deducted from the sender since the destination account does not exist": "接受方账户不存在, 交易仍然会扣除发送方 {{creationFee}} 作为手续费用",
+    "The final recipient balance is less or equal to {{existentialDeposit}} (the existential amount) and will not be reflected": "[TODO]最后啥啥的交易余额小于或等于 {{existentialDeposit}} (现存余额), 交易不能成功发送."
 }

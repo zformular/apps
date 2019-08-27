@@ -1,30 +1,30 @@
 {
     "sidebar": {
         "js": "Javascript",
-        "toolbox": "Toolbox",
-        "claims": "Claim Tokens",
+        "toolbox": "工具箱",
+        "claims": "申领代币",
         "staking": "Staking",
-        "council": "Council",
-        "settings": "Settings",
+        "council": "议会",
+        "settings": "设置",
         "explorer": "浏览器",
-        "accounts": "Accounts",
-        "democracy": "Democracy",
-        "parachains": "Parachains",
-        "chainstate": "Chain state",
-        "addressbook": "Address book",
+        "accounts": "账户",
+        "democracy": "提案",
+        "parachains": "平行链",
+        "chainstate": "链上信息",
+        "addressbook": "联系人",
 
-        "transfer": "Transfer",
-        "treasury": "Treasury",
-        "Download": "Download",
-        "extrinsics": "Extrinsics",
-        "Backup account": "Backup account",
-        "Create an account now": "Create an account now."
+        "transfer": "发送交易",
+        "treasury": "信托",
+        "Download": "下载",
+        "extrinsics": "外部交易",
+        "Backup account": "账户备份",
+        "Create an account now": "现在创建账户."
     },
 
 
-    "Create an account now": "Create an account now.",
-    "claim your <1>KSM</1> tokens": "claim your <1>KSM</1> tokens",
-    "Waiting for API to be connected and ready": "Waiting for API to be connected and ready.",
-    "You are not connected to a node Ensure that your node is running and that the Websocket endpoint is reachable": "You are not connected to a node. Ensure that your node is running and that the Websocket endpoint is reachable.",
-    "You don't have any accounts Some features are currently hidden and will only become available once you have accounts": "You don't have any accounts. Some features are currently hidden and will only become available once you have accounts."
+    "Create an account now": "现在创建账户.",
+    "claim your <1>KSM</1> tokens": "申领你的 <1>KSM</1> 代币",
+    "Waiting for API to be connected and ready": "等待API建立连接.",
+    "You are not connected to a node Ensure that your node is running and that the Websocket endpoint is reachable": "当前没有连接到节点, 请确认你的节点出于运行状态并且Websocket接口可以正常访问.",
+    "You don't have any accounts Some features are currently hidden and will only become available once you have accounts": "由于你没有创建任何账户, 部分功能处于隐藏状态."
 }
