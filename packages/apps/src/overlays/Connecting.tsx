@@ -56,7 +56,7 @@ class Connecting extends React.PureComponent<Props> {
         className={className}
         icon='globe'
       >
-        <div>{t('You are not connected to a node. Ensure that your node is running and that the Websocket endpoint is reachable.')}</div>
+        <div>{t('You are not connected to a node Ensure that your node is running and that the Websocket endpoint is reachable')}</div>
         {
           isFirefox && isWs
             ? <div>{t('With the Firefox browser connecting to insecure WebSockets ({{wsUrl}}) will fail due to the browser not allowing localhost access from a secure site.', { replace: { wsUrl } })}</div>

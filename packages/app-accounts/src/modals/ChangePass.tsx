@@ -82,11 +82,11 @@ class ChangePass extends TxComponent<Props, State> {
           isInline
           value={address}
         >
-          <p>{t('This will apply to any future use of this account as stored on this browser. Ensure that you securely store this new password and that it is strong and unique to the account.')}</p>
+          <p>{t('This will apply to any future use of this account as stored on this browser Ensure that you securely store this new password and that it is strong and unique to the account')}</p>
           <div>
             <Password
               autoFocus
-              help={t('The existing account password as specified when this account was created or when it was last changed.')}
+              help={t('The existing account password as specified when this account was created or when it was last changed')}
               isError={!isOldValid}
               label={t('your current password')}
               onChange={this.onChangeOld}
@@ -94,7 +94,7 @@ class ChangePass extends TxComponent<Props, State> {
               value={oldPass}
             />
             <Password
-              help={t('The new account password. Once set, all future account unlocks will be performed with this new password.')}
+              help={t('The new account password Once set, all future account unlocks will be performed with this new password')}
               isError={!isNewValid}
               label={t('your new password')}
               onChange={this.onChangeNew}

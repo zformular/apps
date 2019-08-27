@@ -141,7 +141,7 @@ class Transfer extends React.PureComponent<Props> {
         <div className={className}>
           <InputAddress
             defaultValue={propSenderId}
-            help={t('The account you will send funds from.')}
+            help={t('The account you will send funds from')}
             isDisabled={!!propSenderId}
             label={t('send from account')}
             labelExtra={<Available label={available} params={senderId} />}
@@ -150,7 +150,7 @@ class Transfer extends React.PureComponent<Props> {
           />
           <InputAddress
             defaultValue={propRecipientId}
-            help={t('Select a contact or paste the address you want to send funds to.')}
+            help={t('Select a contact or paste the address you want to send funds to')}
             isDisabled={!!propRecipientId}
             label={t('send to address')}
             labelExtra={<Available label={available} params={recipientId} />}
@@ -158,7 +158,7 @@ class Transfer extends React.PureComponent<Props> {
             type='allPlus'
           />
           <InputBalance
-            help={t('Type the amount you want to transfer. Note that you can select the unit on the right e.g sending 1 mili is equivalent to sending 0.001.')}
+            help={t('Type the amount you want to transfer Note that you can select the unit on the right eg sending 1 mili is equivalent to sending 0001')}
             isError={!hasAvailable}
             label={t('amount')}
             maxValue={maxBalance}

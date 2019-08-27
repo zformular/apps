@@ -50,7 +50,7 @@ class LinkPolkascan extends React.PureComponent<Props> {
           rel='noopener noreferrer'
           target='_blank'
         >
-          {t('View this {{type}} on Polkascan.io', { replace: { type } })}
+          {t('View this {{type}} on Polkascanio', { replace: { type } })}
         </a>
       </div>
     );

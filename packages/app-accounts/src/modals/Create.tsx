@@ -173,7 +173,7 @@ class Create extends React.PureComponent<Props, State> {
           <Input
             autoFocus
             className='full'
-            help={t('Name given to this account. You can edit it. To use the account to validate or nominate, it is a good practice to append the function of the account in the name, e.g "name_you_want - stash".')}
+            help={t('Name given to this account You can edit it To use the account to validate or nominate, it is a good practice to append the function of the account in the name, eg "name_you_want _ stash"')}
             isError={!isNameValid}
             label={t('name')}
             onChange={this.onChangeName}
@@ -182,7 +182,7 @@ class Create extends React.PureComponent<Props, State> {
           />
           <Input
             className='full'
-            help={t('The private key for your account is derived from this seed. This seed must be kept secret as anyone in its possession has access to the funds of this account. If you validate, use the seed of the session account as the "--key" parameter of your node.')}
+            help={t('The private key for your account is derived from this seed This seed must be kept secret as anyone in its possession has access to the funds of this account If you validate, use the seed of the session account as the "--key" parameter of your node')}
             isAction
             isError={!isSeedValid}
             isReadOnly={isDevSeed}
@@ -200,7 +200,7 @@ class Create extends React.PureComponent<Props, State> {
           </Input>
           <Password
             className='full'
-            help={t('This password is used to encrypt your private key. It must be strong and unique! You will need it to sign transactions with this account. You can recover this account using this password together with the backup file (generated in the next step).')}
+            help={t('This password is used to encrypt your private key It must be strong and unique You will need it to sign transactions with this account You can recover this account using this password together with the backup file generated in the next step')}
             isError={!isPassValid}
             label={t('password')}
             onChange={this.onChangePass}
@@ -214,14 +214,14 @@ class Create extends React.PureComponent<Props, State> {
             <summary>{t('Advanced creation options')}</summary>
             <Dropdown
               defaultValue={pairType}
-              help={t('Determines what cryptography will be used to create this account. Note that to validate on Polkadot, the session account must use "ed25519".')}
+              help={t('Determines what cryptography will be used to create this account Note that to validate on Polkadot, the session account must use "ed25519"')}
               label={t('keypair crypto type')}
               onChange={this.onChangePairType}
               options={uiSettings.availableCryptos}
             />
             <Input
               className='full'
-              help={t('You can set a custom derivation path for this account using the following syntax "/<soft-key>//<hard-key>". The "/<soft-key>" and "//<hard-key>" may be repeated and mixed`.')}
+              help={t('You can set a custom derivation path for this account using the following syntax "/<soft-key>//<hard-key>" The "/<soft-key>" and "//<hard-key>" may be repeated and mixed`')}
               isError={!!deriveError}
               label={t('secret derivation path')}
               onChange={this.onChangeDerive}
@@ -257,8 +257,8 @@ class Create extends React.PureComponent<Props, State> {
             isInline
             value={address}
           >
-            <p>{t('We will provide you with a generated backup file after your account is created. As long as you have access to your account you can always download this file later by clicking on "Backup" button from the Accounts section.')}</p>
-            <p>{t('Please make sure to save this file in a secure location as it is required, together with your password, to restore your account.')}</p>
+            <p>{t('We will provide you with a generated backup file after your account is created As long as you have access to your account you can always download this file later by clicking on "Backup" button from the Accounts section')}</p>
+            <p>{t('Please make sure to save this file in a secure location as it is required, together with your password, to restore your account')}</p>
           </AddressRow>
         </Modal.Content>
         <Modal.Actions>

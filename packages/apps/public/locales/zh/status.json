@@ -1,0 +1,16 @@
+{
+    "no": "no",
+    "role": "role",
+    "best #": "best #",
+    "peer id": "peer id",
+    "syncing": "syncing",
+    "our best": "our best",
+    "queued tx": "queued tx",
+    "peer best": "peer best",
+    "best hash": "best hash",
+    "refresh in": "refresh in",
+    "total peers": "total peers",
+    "connected peers": "connected peers",
+    "no peers connected": "no peers connected",
+    "pending extrinsics": "pending extrinsics"
+}

@@ -89,12 +89,12 @@ class Unlock extends TxComponent<Props, State> {
           isInline
           value={address}
         >
-          <p>{t('You are about to unlock your account to allow for the signing of messages. Once active the signature will be generated based on the content provided.')}</p>
+          <p>{t('You are about to unlock your account to allow for the signing of messages Once active the signature will be generated based on the content provided')}</p>
           <div>
             <Password
               autoFocus
               isError={!!unlockError}
-              help={t('The account\'s password specified at the creation of this account.')}
+              help={t('The accounts password specified at the creation of this account')}
               label={t('password')}
               onChange={this.onChangePassword}
               onEnter={this.submit}

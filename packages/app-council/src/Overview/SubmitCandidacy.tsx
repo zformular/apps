@@ -18,7 +18,7 @@ class SubmitCandidacy extends TxModal<Props, State> {
 
   protected accountLabel = (): string => this.props.t('Candidate account');
 
-  protected accountHelp = (): string => this.props.t('This account will be nominated to fill the council slot you specify.');
+  protected accountHelp = (): string => this.props.t('This account will be nominated to fill the council slot you specify');
 
   protected txMethod = (): string => 'elections.submitCandidacy';
 

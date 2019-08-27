@@ -87,7 +87,7 @@ class Create extends React.PureComponent<Props, State> {
           <Input
             autoFocus
             className='full'
-            help={t('Paste here the address of the contact you want to add to your address book.')}
+            help={t('Paste here the address of the contact you want to add to your address book')}
             isError={!isAddressValid}
             label={t('address')}
             onChange={this.onChangeAddress}
@@ -96,7 +96,7 @@ class Create extends React.PureComponent<Props, State> {
           />
           <Input
             className='full'
-            help={t('Type the name of your contact. This name will be used across all the apps. It can be edited later on.')}
+            help={t('Type the name of your contact This name will be used across all the apps It can be edited later on')}
             isError={!isNameValid}
             label={t('name')}
             onChange={this.onChangeName}

@@ -130,7 +130,7 @@ class Vote extends TxModal<Props, State> {
 
   protected accountLabel = (): string => this.props.t('Voting account');
 
-  protected accountHelp = (): string => this.props.t('This account will be use to approve or disapprove each candidate.');
+  protected accountHelp = (): string => this.props.t('This account will be use to approve or disapprove each candidate');
 
   protected txMethod = (): string => 'elections.setApprovals';
 

@@ -54,7 +54,7 @@ class Accounts extends React.PureComponent<Props, State> {
           />
         }
         className={className}
-        emptyText={t('No funds staked yet.')}
+        emptyText={t('No funds staked yet')}
         isEmpty={isEmpty}
       >
         {this.renderNewStake()}

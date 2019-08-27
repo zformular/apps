@@ -1,0 +1,21 @@
+{
+
+    "custom endpoint": "custom endpoint",
+    "address network prefix": "address network prefix",
+    "default interface theme": "default interface theme",
+    "interface operation mode": "interface operation mode",
+    "default interface language": "default interface language",
+    "remote node/endpoint to connect to": "remote node/endpoint to connect to",
+    "click to select or drag and drop the file here": "click to select or drag and drop the file here",
+
+    "Save": "Save",
+    "Reset": "Reset",
+    "General": "General",
+    "Developer": "Developer",
+    "Save & Reload": "Save & Reload",
+    "Additional types as a JSON file (or edit below)": "Additional types as a JSON file (or edit below)",
+    "Override the default network prefix for address generation": "Override the default network prefix for address generation",
+    "The logo and colors for the app along with the identity icon theme": "The logo and colors for the app along with the identity icon theme.",
+    "Adjust the mode from basic (with a limited number of beginner-user-friendly apps) to full (with all basic & advanced apps available)": "Adjust the mode from basic (with a limited number of beginner-user-friendly apps) to full (with all basic & advanced apps available)",
+    "Save the type definitions for your custom structures as key_value pairs in a valid JSON file The key should be the name of your custom structure and the value an object containing your type definitions": "Save the type definitions for your custom structures as key-value pairs in a valid JSON file. The key should be the name of your custom structure and the value an object containing your type definitions."
+}

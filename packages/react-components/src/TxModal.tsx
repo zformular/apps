@@ -59,7 +59,7 @@ class TxModal<P extends TxModalProps, S extends TxModalState> extends TxComponen
 
   protected headerText = (): React.ReactNode => '';
 
-  protected accountHelp = (): React.ReactNode => this.props.t('Select the account to use for this action.');
+  protected accountHelp = (): React.ReactNode => this.props.t('Select the account to use for this action');
 
   protected accountLabel = (): React.ReactNode => this.props.t('using my account');
 

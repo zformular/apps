@@ -79,11 +79,11 @@ class Backup extends TxComponent<Props, State> {
           isInline
           value={address}
         >
-          <p>{t('An encrypted backup file will be created once you have pressed the "Download" button. This can be used to re-import your account on any other machine.')}</p>
-          <p>{t('Save this backup file in a secure location. Additionally, the password associated with this account is needed together with this backup file in order to restore your account.')}</p>
+          <p>{t('An encrypted backup file will be created once you have pressed the "Download" button This can be used to re-import your account on any other machine')}</p>
+          <p>{t('Save this backup file in a secure location Additionally, the password associated with this account is needed together with this backup file in order to restore your account')}</p>
           <div>
             <Password
-              help={t('The account password as specified when creating the account. This is used to encrypt the backup file and subsequently decrypt it when restoring the account.')}
+              help={t('The account password as specified when creating the account This is used to encrypt the backup file and subsequently decrypt it when restoring the account')}
               isError={!isPassValid}
               label={t('password')}
               onChange={this.onChangePass}

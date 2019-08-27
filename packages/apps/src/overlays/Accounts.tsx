@@ -59,13 +59,13 @@ class Accounts extends React.PureComponent<Props, State> {
         className={className}
         icon='users'
       >
-        <p>{t("You don't have any accounts. Some features are currently hidden and will only become available once you have accounts.")}</p>
+        <p>{t("You don't have any accounts Some features are currently hidden and will only become available once you have accounts")}</p>
         <p>
           <Link
             to='/accounts'
             onClick={this.onClose}
           >
-            {t('Create an account now.')}
+            {t('Create an account now')}
           </Link>
         </p>
       </BaseOverlay>

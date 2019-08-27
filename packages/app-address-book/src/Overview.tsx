@@ -45,7 +45,7 @@ class Overview extends React.PureComponent<Props, State> {
           </Button.Group>
         }
         isEmpty={emptyScreen}
-        emptyText={t('No contact found.')}
+        emptyText={t('No contact found')}
       >
         {isCreateOpen && (
           <CreateModal

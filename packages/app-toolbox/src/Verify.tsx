@@ -72,7 +72,7 @@ class Verify extends React.PureComponent<Props, State> {
           <Input
             autoFocus
             className='full'
-            help={t('The data that was signed. This is used in combination with the signature for the verification. It can either be hex or a string.')}
+            help={t('The data that was signed This is used in combination with the signature for the verification It can either be hex or a string')}
             label={t('using the following data')}
             onChange={this.onChangeData}
             value={data}
@@ -82,14 +82,14 @@ class Verify extends React.PureComponent<Props, State> {
         <div className='ui--row'>
           <Dropdown
             defaultValue={cryptoType}
-            help={t('Cryptography used to create this signature. It is auto-detected on valid signatures.')}
+            help={t('Cryptography used to create this signature It is auto-detected on valid signatures')}
             isDisabled
             label={t('signature crypto type')}
             options={cryptoOptions}
           />
           <Static
             className='medium'
-            help={t('Detection on the input string to determine if it is hex or non-hex.')}
+            help={t('Detection on the input string to determine if it is hex or non-hex')}
             label={t('hex input data')}
             value={
               isHexData
@@ -137,7 +137,7 @@ class Verify extends React.PureComponent<Props, State> {
             />
           }
           isError={!isValidSignature}
-          help={t('The signature as by the account being checked, supplied as a hex-formatted string.')}
+          help={t('The signature as by the account being checked, supplied as a hex-formatted string')}
           label={t('the supplied signature')}
           onChange={this.onChangeSignature}
           value={signature}

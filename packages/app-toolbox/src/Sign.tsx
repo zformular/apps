@@ -96,7 +96,7 @@ class Sign extends React.PureComponent<Props, State> {
     return (
       <div className='unlock-overlay-warning'>
         <div className='unlock-overlay-content'>
-          {t('You need to unlock this account to be able to sign data.')}<br/>
+          {t('You need to unlock this account to be able to sign data')}<br/>
           <Button.Group>
             <Button
               isPrimary
@@ -119,7 +119,7 @@ class Sign extends React.PureComponent<Props, State> {
           <Input
             autoFocus
             className='full'
-            help={t('The input data to sign. This can be either specified as a hex value (0x-prefix) or as a string.')}
+            help={t('The input data to sign This can be either specified as a hex value (0x-prefix) or as a string')}
             label={t('sign the following data')}
             onChange={this.onChangeData}
             value={data}
@@ -128,7 +128,7 @@ class Sign extends React.PureComponent<Props, State> {
         <div className='ui--row'>
           <Static
             className='medium'
-            help={t('Detection on the input string to determine if it is hex or non-hex.')}
+            help={t('Detection on the input string to determine if it is hex or non-hex')}
             label={t('hex input data')}
             value={
               isHexData
@@ -149,7 +149,7 @@ class Sign extends React.PureComponent<Props, State> {
       <div className='ui--row'>
         <Output
           className='full'
-          help={t('The resulting signature of the input data, as done with the crypto algorithm from the account. (This could be non-deterministic for some types such as sr25519).')}
+          help={t('The resulting signature of the input data, as done with the crypto algorithm from the account This could be non-deterministic for some types such as sr25519')}
           isHidden={signature.length === 0}
           isMonospace
           label={t('signature of supplied data')}

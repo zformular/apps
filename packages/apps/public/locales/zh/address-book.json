@@ -1,0 +1,14 @@
+{
+    "name": "name",
+    "address": "address",
+
+    "Save": "Save",
+    "Cancel": "Cancel",
+    "My contacts": "My contacts",
+    "Add contact": "Add contact",
+    "Add an address": "Add an address",
+    "No contact found": "No contact found.",
+
+    "Paste here the address of the contact you want to add to your address book": "Paste here the address of the contact you want to add to your address book.",
+    "Type the name of your contact This name will be used across all the apps It can be edited later on": "Type the name of your contact. This name will be used across all the apps. It can be edited later on."
+}

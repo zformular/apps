@@ -117,7 +117,7 @@ class NewStake extends TxComponent<Props, State> {
           />
           <InputAddress
             className='medium'
-            help={t('The controller is the account that will be used to control any nominating or validating actions. Should not match another stash or controller.')}
+            help={t('The controller is the account that will be used to control any nominating or validating actions Should not match another stash or controller')}
             isError={!ignoreController && !!controllerError}
             label={t('controller account')}
             onChange={this.onChangeController}

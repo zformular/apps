@@ -57,7 +57,7 @@ class Developer extends React.PureComponent<Props, State> {
           <div className='full'>
             <InputFile
               clearContent={typesHasNoEntries && isTypesValid}
-              help={t('Save the type definitions for your custom structures as key-value pairs in a valid JSON file. The key should be the name of your custom structure and the value an object containing your type definitions.')}
+              help={t('Save the type definitions for your custom structures as key_value pairs in a valid JSON file The key should be the name of your custom structure and the value an object containing your type definitions')}
               isError={!isTypesValid}
               label={t('Additional types as a JSON file (or edit below)')}
               onChange={this.onChangeTypes}

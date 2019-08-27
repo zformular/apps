@@ -61,7 +61,7 @@ class General extends React.PureComponent<Props, State> {
           <div className='medium'>
             <Dropdown
               defaultValue={uiTheme}
-              help={t('The logo and colors for the app along with the identity icon theme.')}
+              help={t('The logo and colors for the app along with the identity icon theme')}
               label={t('default interface theme')}
               onChange={this.onChangeUiTheme}
               options={uiSettings.availableUIThemes}

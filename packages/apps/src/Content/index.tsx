@@ -61,7 +61,7 @@ class Content extends React.Component<Props> {
     if (needsApi && (!isApiReady || !isApiConnected)) {
       return (
         <Wrapper>
-          <Connecting>{t('Waiting for API to be connected and ready.')}</Connecting>
+          <Connecting>{t('Waiting for API to be connected and ready')}</Connecting>
         </Wrapper>
       );
     }
