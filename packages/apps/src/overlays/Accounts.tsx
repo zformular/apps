@@ -49,10 +49,16 @@ class Accounts extends React.PureComponent<Props, State> {
   public render (): React.ReactNode {
     const { isApiReady, className, t } = this.props;
     const { hasAccounts, isHidden } = this.state;
+    
+    console.log('asdasddsda---------------------');
+    console.log(isApiReady);
+    console.log(hasAccounts);
+    console.log(isHidden);
 
     if (!isApiReady || hasAccounts || isHidden) {
       return null;
     }
+    console.log('asdasddsda++++++++++++++++++++++');
 
     return (
       <BaseOverlay
@@ -61,12 +67,13 @@ class Accounts extends React.PureComponent<Props, State> {
       >
         <p>{t("You don't have any accounts Some features are currently hidden and will only become available once you have accounts")}</p>
         <p>
-          <Link
-            to='/accounts'
+          <a
+            target="_blank"
+            href='https://polkawallet.io/#download'
             onClick={this.onClose}
           >
             {t('Create an account now')}
-          </Link>
+          </a>
         </p>
       </BaseOverlay>
     );

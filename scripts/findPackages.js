@@ -19,7 +19,6 @@ module.exports = function findPackages () {
         fs.existsSync(path.join(pkgPath, 'package.json'));
     })
     .filter((entry)=> {
-      console.log(entry);
       const packs= ['apps', 'app-explorer', 'apps-routing', 'app-contracts', 'react-api', 'react-query', 'react-params', 'react-components', 'react-signer'];
 
       return packs.indexOf(entry)> 0;
