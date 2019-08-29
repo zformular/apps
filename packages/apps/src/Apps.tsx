@@ -64,13 +64,13 @@ class Apps extends React.Component<Props, State> {
     return (
       <div className={`apps-Wrapper ${isCollapsed ? 'collapsed' : 'expanded'} ${isMenu && 'fixed'} ${menuOpen && 'menu-open'} theme--${settings.uiTheme} ${className}`}>
         {this.renderMenuBg()}
-        <SideBar
+        {/* <SideBar
           collapse={this.collapse}
           handleResize={this.handleResize}
           menuOpen={menuOpen}
           isCollapsed={isCollapsed}
           toggleMenu={this.toggleMenu}
-        />
+        /> */}
         <Signer>
           <Content />
         </Signer>
